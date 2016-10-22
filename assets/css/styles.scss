@@ -1,0 +1,41 @@
+
+body{
+  font-family: Montserrat, sans-serif;
+  #topBanner{
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 5% 0;
+    margin: auto;
+    font-size: 2em;
+    .siteHead{
+      position: relative;
+      text-align: center;
+    }
+  }
+  .landingPage{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    .searchFunction{
+      padding: 5%;
+      input{
+        font-size: .90em;
+        width: 45%;
+        margin: 2% 0;
+        outline: none;
+        border: none;
+      }
+      button{
+        font-size: .9em;
+        background-color: red;
+        color: white;
+        outline: none;
+        border: none;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

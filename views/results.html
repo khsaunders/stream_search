@@ -1,0 +1,9 @@
+<h3> Here's what we found</h3>
+
+<div class="showResults">
+  <li ng-repeat="result in results" class="searchResult" id={{result.id}} ng-click="logID()">
+    <div id="resultName"> {{result.name}}</div>
+    <div id="resultPic"> {{result.picture}}</div>
+    <div id="resultYear">{{result.year}}</div>
+    <div id="resultInfo">
+        {{result.info}}

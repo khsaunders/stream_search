@@ -1,0 +1,34 @@
+body {
+  font-family: Montserrat, sans-serif; }
+  body #topBanner {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 5% 0;
+    margin: auto;
+    font-size: 2em; }
+    body #topBanner .siteHead {
+      position: relative;
+      text-align: center; }
+  body .landingPage {
+    width: 85%;
+    margin: auto;
+    text-align: center; }
+    body .landingPage .searchFunction {
+      padding: 5%; }
+      body .landingPage .searchFunction input {
+        font-size: .90em;
+        width: 45%;
+        margin: 2% 0;
+        outline: none;
+        border: none; }
+      body .landingPage .searchFunction button {
+        font-size: .9em;
+        background-color: red;
+        color: white;
+        outline: none;
+        border: none; }
+        body .landingPage .searchFunction button:hover {
+          cursor: pointer; }
+
+/*# sourceMappingURL=styles.css.map */
